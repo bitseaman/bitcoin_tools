@@ -90,7 +90,7 @@ if __name__ == '__main__':
         # Get params from call
         options, remainder = getopt(argv[1:], 'f:k:p:eo', ['file=', 'kill=', 'pid=', 'start-at-end', 'start-at-origin'])
 
-        log_filename = "/home/cris/.bitcoin/debug.log"  # default log file
+        log_filename = "/home/udell/.bitcoin/debug.log"  # default log file
         start = START_AT_ORIGIN                         # default log file start
         kill_at_height, pid = None, None
 
